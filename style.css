@@ -1,0 +1,101 @@
+
+/**MY SECTION**/
+#who-we-are{
+  position: relative;
+  height: 1050px;
+}
+
+/**FONT SECTION**/
+h1{
+font-family: Montserrat;
+font-size: 50px;
+font-weight: 700;
+line-height: 72px;
+letter-spacing: -0.015em;
+text-align: left;
+margin-top: 0;
+color:#434094
+  }
+  p{
+font-family:Montserrat;
+font-size: 16px;
+}
+h2{
+    font-family: Montserrat;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-top: 0;
+    color:#434094;
+  }
+
+  /** BUTTON SECTION**/
+button{
+  border: 2px solid #434094;
+  background-color: white;
+  margin: 8px 0px 8px 0;
+  font-size: 16px;
+  cursor: pointer;
+  height: 40px;
+  width: 130px;
+  border-radius: 5px;
+}
+button:hover{
+  background-color:#434094 ;
+  color:#fff;
+}
+
+/** DIVS POSITIONING**/
+.container{
+  position: relative;
+}
+div.row{
+
+      padding-top: 10px;
+      padding-bottom: 20px;
+      position: absolute;
+}
+
+div.row-2{
+  margin-top: 460px;
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+div.row-3{
+  position: absolute;
+  margin-top: 710px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+
+
+}
+
+div.col-1{
+  position: absolute;
+  width:630px;
+  height: auto;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+div.col-2{
+  position: absolute;
+  width:630px;
+  height: auto;
+  margin-left: 670px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+}
+/*** IMAGES STYLES***/
+img.homeImg{
+  padding: 1px;
+  width:1330px;
+}
+img.whoWeAre{
+  padding: 5px;
+  width: 625px;
+}
